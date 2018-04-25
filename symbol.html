@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		    .icon {
+		       width: 30px; height: 30px;
+		       vertical-align: -0.15em;
+		       fill: currentColor;
+		       overflow: hidden;
+		       color: red;
+		    }
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li>支持多色图标了，不再受单色限制。</li>
+			<li>通过一些技巧，支持像字体那样，通过font-size,color来调整样式。</li>
+			<li>兼容性较差，支持 ie9+,及现代浏览器。</li>
+			<li>浏览器渲染svg的性能一般，还不如png。</li>
+		</ul>
+		<svg class="icon" aria-hidden="true">
+		    <use xlink:href="#icon-gaiicon-"></use>
+		</svg>
+		<svg class="icon" aria-hidden="true">
+		    <use xlink:href="#icon-home"></use>
+		</svg>
+		<svg class="icon" aria-hidden="true">
+		    <use xlink:href="#icon-qita"></use>
+		</svg>
+		
+		<script src="//at.alicdn.com/t/font_643081_2ztr0k9zxuxo5hfr.js"></script>
+	</body>
+</html>
